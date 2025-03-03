@@ -66,5 +66,13 @@
     <Compile Include="Plugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ThunderStore\manifest.json" />
+    <None Include="ThunderStore\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ThunderStore\icon.png" />
+    <Content Include="ThunderStore\More Revive HP.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
